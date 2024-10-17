@@ -1,0 +1,8 @@
+print(f"Check Number is Positive, Negative or Zero \n ")
+number = int(input("Enter a Specific Number"))
+if number > 0:
+    print(f"Number is Positive")
+elif number < 0:
+    print(f"Number is Negative")
+else:
+    print(f"The number provided is Zero")
